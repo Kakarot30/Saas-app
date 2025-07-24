@@ -58,7 +58,3 @@
 - `constants/` — Static data and config
 - `public/` — Static assets (icons, images)
 - `types/` — TypeScript types
-
-## 📄 License
-
-MIT
