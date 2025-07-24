@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Converso: Real-time AI Teaching Platform
 
-## Getting Started
+> **Converso** is a modern, full-stack SaaS platform for real-time, voice-driven AI tutoring. Built with Next.js App Router, Clerk authentication, Supabase, and a beautiful, responsive UI powered by Tailwind CSS.
 
-First, run the development server:
+## ✨ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Modern UI**: Clean, responsive, and accessible design using Tailwind CSS and custom components.
+- **AI Companions**: Create, customize, and launch AI-powered teaching companions for any subject or topic.
+- **Voice Sessions**: Real-time, voice-based learning powered by OpenAI and 11Labs.
+- **User Authentication**: Secure sign-in/sign-up with Clerk.
+- **Session History**: Track your recent lessons and revisit previous sessions.
+- **Bookmarks**: Save your favorite companions for quick access.
+- **Personal Dashboard**: View your created companions, session stats, and more.
+- **Supabase Integration**: Fast, scalable database and storage.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Install dependencies:**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-## Learn More
+2. **Set up environment variables:**
 
-To learn more about Next.js, take a look at the following resources:
+   - Copy `.env.example` to `.env.local` and fill in your Supabase and Clerk keys.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Run the development server:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-## Deploy on Vercel
+4. **Open [http://localhost:3000](http://localhost:3000) in your browser.**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🖥️ UI Preview
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![Converso UI Preview](public/readme/hero.png)
+
+## 🛠️ Tech Stack
+
+- [Next.js App Router](https://nextjs.org/docs/app)
+- [Clerk](https://clerk.com/) (Authentication)
+- [Supabase](https://supabase.com/) (Database)
+- [OpenAI](https://openai.com/) (AI)
+- [11Labs](https://elevenlabs.io/) (Voice)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+## 📦 Project Structure
+
+- `app/` — App Router pages, layouts, and routes
+- `components/` — UI and feature components
+- `lib/` — Utilities and server actions
+- `constants/` — Static data and config
+- `public/` — Static assets (icons, images)
+- `types/` — TypeScript types
+
+## 📄 License
+
+MIT
