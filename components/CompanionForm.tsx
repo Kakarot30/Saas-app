@@ -44,8 +44,8 @@ const CompanionForm = () => {
       topic: "",
       voice: "",
       style: "",
-      duration: 15 as unknown as string | number, // allow both for z.coerce.number()
-    } as z.infer<typeof formSchema>,
+      duration: 15,
+    },
   });
 
   const onSubmit = async (values: z.infer<typeof formSchema>) => {
